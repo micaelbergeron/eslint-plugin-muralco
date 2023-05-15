@@ -2,8 +2,8 @@
   "name": "eslint-plugin-muralco",
   "version": "1.6.0",
   "description": "Standard rules for MURAL",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/muralco/eslint-plugin-muralco.git"
@@ -44,6 +44,7 @@
     "typescript": "^4.9.3"
   },
   "dependencies": {
-    "eslint-utils": "^3.0.0"
+    "eslint-utils": "^3.0.0",
+    "find-up": "^6.3.0"
   }
 }

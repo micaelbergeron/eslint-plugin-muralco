@@ -256,6 +256,7 @@ const applySpecs = (
 
   return { errors: [], fromModule };
 };
+
 const modulesRule: Rule.RuleModule = {
   meta: {
     docs: {

@@ -5,6 +5,7 @@ import shortImportsRule from './short-imports';
 import sortedImportsRule from './sorted-imports';
 import customJsxRule from './custom-jsx';
 import noInlineScript from './no-inline-script';
+import lockfileRule from './locked-fs';
 
 module.exports = {
   configs: {
@@ -23,5 +24,6 @@ module.exports = {
     'sorted-imports': sortedImportsRule,
     layers: layersRule,
     modules: modulesRule,
+    lockfiles: lockfileRule,
   },
 };
